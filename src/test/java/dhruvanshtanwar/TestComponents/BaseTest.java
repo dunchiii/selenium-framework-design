@@ -24,7 +24,6 @@ import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 import dhruvanshtanwar.pageobjects.LandingPage;
-import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BaseTest {
 	public WebDriver driver;
@@ -36,20 +35,23 @@ public class BaseTest {
 		FileInputStream fis = new FileInputStream(System.getProperty("user.dir") + "\\src\\main\\java\\dhruvanshtanwar"
 				+ "\\resources\\GlobalData.properties");
 		prop.load(fis);
-		String browserName = prop.getProperty("browser");
+
+		String browserName = System.getProperty("browser") != null ? System.getProperty("browser")
+				: prop.getProperty("browser");
+//				prop.getProperty("browser");
 
 		if (browserName.equalsIgnoreCase("edge")) {
-			WebDriverManager.edgedriver().setup();
+//			WebDriverManager.edgedriver().setup();
 			driver = new EdgeDriver();
 		}
 
 		else if (browserName.equalsIgnoreCase("chrome")) {
-			WebDriverManager.chromedriver().setup();
+//			WebDriverManager.chromedriver().setup();
 			driver = new ChromeDriver();
 		}
 
 		else if (browserName.equalsIgnoreCase("firefox")) {
-			WebDriverManager.firefoxdriver().setup();
+//			WebDriverManager.firefoxdriver().setup();
 			driver = new FirefoxDriver();
 		}
 

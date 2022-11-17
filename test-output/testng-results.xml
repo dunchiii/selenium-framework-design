@@ -2,22 +2,22 @@
 <testng-results retried="1" ignored="0" total="6" passed="4" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-11-13T19:52:51 IST" name="Suite" finished-at="2022-11-13T19:53:14 IST" duration-ms="22701">
+  <suite started-at="2022-11-16T11:16:57 IST" name="Suite" finished-at="2022-11-16T11:17:14 IST" duration-ms="16756">
     <groups>
       <group name="ErrorHandling">
-        <method signature="ErrorValidationsTest.loginErrorValidation()[pri:0, instance:dhruvanshtanwar.tests.ErrorValidationsTest@25aca718]" name="loginErrorValidation" class="dhruvanshtanwar.tests.ErrorValidationsTest"/>
+        <method signature="ErrorValidationsTest.loginErrorValidation()[pri:0, instance:dhruvanshtanwar.tests.ErrorValidationsTest@535779e4]" name="loginErrorValidation" class="dhruvanshtanwar.tests.ErrorValidationsTest"/>
       </group> <!-- ErrorHandling -->
       <group name="Purchase">
-        <method signature="SubmitOrderTest.submitOrder(java.util.HashMap)[pri:0, instance:dhruvanshtanwar.tests.SubmitOrderTest@3f9342d4]" name="submitOrder" class="dhruvanshtanwar.tests.SubmitOrderTest"/>
+        <method signature="SubmitOrderTest.submitOrder(java.util.HashMap)[pri:0, instance:dhruvanshtanwar.tests.SubmitOrderTest@598bd2ba]" name="submitOrder" class="dhruvanshtanwar.tests.SubmitOrderTest"/>
       </group> <!-- Purchase -->
     </groups>
-    <test started-at="2022-11-13T19:52:51 IST" name="Error Validation Test" finished-at="2022-11-13T19:53:11 IST" duration-ms="20114">
+    <test started-at="2022-11-16T11:16:57 IST" name="Error Validation Test" finished-at="2022-11-16T11:17:12 IST" duration-ms="15197">
       <class name="dhruvanshtanwar.tests.ErrorValidationsTest">
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:dhruvanshtanwar.tests.ErrorValidationsTest@25aca718]" started-at="2022-11-13T19:52:51 IST" name="launchApplication" finished-at="2022-11-13T19:52:57 IST" duration-ms="6119" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:dhruvanshtanwar.tests.ErrorValidationsTest@535779e4]" started-at="2022-11-16T11:16:57 IST" name="launchApplication" finished-at="2022-11-16T11:17:01 IST" duration-ms="3980" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method retried="true" signature="loginErrorValidation()[pri:0, instance:dhruvanshtanwar.tests.ErrorValidationsTest@25aca718]" started-at="2022-11-13T19:52:57 IST" name="loginErrorValidation" finished-at="2022-11-13T19:52:58 IST" duration-ms="548" status="SKIP">
+        <test-method retried="true" signature="loginErrorValidation()[pri:0, instance:dhruvanshtanwar.tests.ErrorValidationsTest@535779e4]" started-at="2022-11-16T11:17:01 IST" name="loginErrorValidation" finished-at="2022-11-16T11:17:02 IST" duration-ms="869" status="SKIP">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Incorrect email or password.] but found [Incorrect email  passsword.]]]>
@@ -59,15 +59,15 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginErrorValidation -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:dhruvanshtanwar.tests.ErrorValidationsTest@25aca718]" started-at="2022-11-13T19:52:58 IST" name="tearDown" finished-at="2022-11-13T19:52:58 IST" duration-ms="223" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:dhruvanshtanwar.tests.ErrorValidationsTest@535779e4]" started-at="2022-11-16T11:17:02 IST" name="tearDown" finished-at="2022-11-16T11:17:02 IST" duration-ms="114" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:dhruvanshtanwar.tests.ErrorValidationsTest@25aca718]" started-at="2022-11-13T19:52:58 IST" name="launchApplication" finished-at="2022-11-13T19:53:02 IST" duration-ms="4150" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:dhruvanshtanwar.tests.ErrorValidationsTest@535779e4]" started-at="2022-11-16T11:17:02 IST" name="launchApplication" finished-at="2022-11-16T11:17:05 IST" duration-ms="3151" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="loginErrorValidation()[pri:0, instance:dhruvanshtanwar.tests.ErrorValidationsTest@25aca718]" started-at="2022-11-13T19:53:02 IST" name="loginErrorValidation" finished-at="2022-11-13T19:53:03 IST" duration-ms="701" status="FAIL">
+        <test-method signature="loginErrorValidation()[pri:0, instance:dhruvanshtanwar.tests.ErrorValidationsTest@535779e4]" started-at="2022-11-16T11:17:05 IST" name="loginErrorValidation" finished-at="2022-11-16T11:17:05 IST" duration-ms="388" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Incorrect email or password.] but found [Incorrect email  passsword.]]]>
@@ -109,31 +109,31 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginErrorValidation -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:dhruvanshtanwar.tests.ErrorValidationsTest@25aca718]" started-at="2022-11-13T19:53:04 IST" name="tearDown" finished-at="2022-11-13T19:53:04 IST" duration-ms="204" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:dhruvanshtanwar.tests.ErrorValidationsTest@535779e4]" started-at="2022-11-16T11:17:06 IST" name="tearDown" finished-at="2022-11-16T11:17:06 IST" duration-ms="165" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:dhruvanshtanwar.tests.ErrorValidationsTest@25aca718]" started-at="2022-11-13T19:53:04 IST" name="launchApplication" finished-at="2022-11-13T19:53:08 IST" duration-ms="4597" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:dhruvanshtanwar.tests.ErrorValidationsTest@535779e4]" started-at="2022-11-16T11:17:06 IST" name="launchApplication" finished-at="2022-11-16T11:17:10 IST" duration-ms="4075" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="productErrorValidation()[pri:0, instance:dhruvanshtanwar.tests.ErrorValidationsTest@25aca718]" started-at="2022-11-13T19:53:08 IST" name="productErrorValidation" finished-at="2022-11-13T19:53:11 IST" duration-ms="2395" status="PASS">
+        <test-method signature="productErrorValidation()[pri:0, instance:dhruvanshtanwar.tests.ErrorValidationsTest@535779e4]" started-at="2022-11-16T11:17:10 IST" name="productErrorValidation" finished-at="2022-11-16T11:17:12 IST" duration-ms="2040" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- productErrorValidation -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:dhruvanshtanwar.tests.ErrorValidationsTest@25aca718]" started-at="2022-11-13T19:53:11 IST" name="tearDown" finished-at="2022-11-13T19:53:11 IST" duration-ms="317" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:dhruvanshtanwar.tests.ErrorValidationsTest@535779e4]" started-at="2022-11-16T11:17:12 IST" name="tearDown" finished-at="2022-11-16T11:17:12 IST" duration-ms="75" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- dhruvanshtanwar.tests.ErrorValidationsTest -->
     </test> <!-- Error Validation Test -->
-    <test started-at="2022-11-13T19:52:51 IST" name="Submit Order Test" finished-at="2022-11-13T19:53:14 IST" duration-ms="22701">
+    <test started-at="2022-11-16T11:16:57 IST" name="Submit Order Test" finished-at="2022-11-16T11:17:14 IST" duration-ms="16756">
       <class name="dhruvanshtanwar.tests.SubmitOrderTest">
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:dhruvanshtanwar.tests.SubmitOrderTest@3f9342d4]" started-at="2022-11-13T19:52:51 IST" name="launchApplication" finished-at="2022-11-13T19:52:56 IST" duration-ms="4863" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:dhruvanshtanwar.tests.SubmitOrderTest@598bd2ba]" started-at="2022-11-16T11:16:57 IST" name="launchApplication" finished-at="2022-11-16T11:16:59 IST" duration-ms="2309" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:dhruvanshtanwar.tests.SubmitOrderTest@3f9342d4]" started-at="2022-11-13T19:52:56 IST" name="submitOrder" data-provider="getData" finished-at="2022-11-13T19:53:00 IST" duration-ms="3233" status="PASS">
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:dhruvanshtanwar.tests.SubmitOrderTest@598bd2ba]" started-at="2022-11-16T11:16:59 IST" name="submitOrder" data-provider="getData" finished-at="2022-11-16T11:17:03 IST" duration-ms="3236" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -144,15 +144,15 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- submitOrder -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:dhruvanshtanwar.tests.SubmitOrderTest@3f9342d4]" started-at="2022-11-13T19:53:00 IST" name="tearDown" finished-at="2022-11-13T19:53:00 IST" duration-ms="89" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:dhruvanshtanwar.tests.SubmitOrderTest@598bd2ba]" started-at="2022-11-16T11:17:03 IST" name="tearDown" finished-at="2022-11-16T11:17:03 IST" duration-ms="137" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:dhruvanshtanwar.tests.SubmitOrderTest@3f9342d4]" started-at="2022-11-13T19:53:00 IST" name="launchApplication" finished-at="2022-11-13T19:53:04 IST" duration-ms="4426" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:dhruvanshtanwar.tests.SubmitOrderTest@598bd2ba]" started-at="2022-11-16T11:17:03 IST" name="launchApplication" finished-at="2022-11-16T11:17:07 IST" duration-ms="4088" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:dhruvanshtanwar.tests.SubmitOrderTest@3f9342d4]" started-at="2022-11-13T19:53:04 IST" name="submitOrder" data-provider="getData" finished-at="2022-11-13T19:53:08 IST" duration-ms="3712" status="PASS">
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:dhruvanshtanwar.tests.SubmitOrderTest@598bd2ba]" started-at="2022-11-16T11:17:07 IST" name="submitOrder" data-provider="getData" finished-at="2022-11-16T11:17:10 IST" duration-ms="2783" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -163,19 +163,19 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- submitOrder -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:dhruvanshtanwar.tests.SubmitOrderTest@3f9342d4]" started-at="2022-11-13T19:53:08 IST" name="tearDown" finished-at="2022-11-13T19:53:08 IST" duration-ms="255" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:dhruvanshtanwar.tests.SubmitOrderTest@598bd2ba]" started-at="2022-11-16T11:17:10 IST" name="tearDown" finished-at="2022-11-16T11:17:10 IST" duration-ms="61" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:dhruvanshtanwar.tests.SubmitOrderTest@3f9342d4]" started-at="2022-11-13T19:53:08 IST" name="launchApplication" finished-at="2022-11-13T19:53:13 IST" duration-ms="4716" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:dhruvanshtanwar.tests.SubmitOrderTest@598bd2ba]" started-at="2022-11-16T11:17:10 IST" name="launchApplication" finished-at="2022-11-16T11:17:13 IST" duration-ms="3235" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="orderHistoryTest()[pri:0, instance:dhruvanshtanwar.tests.SubmitOrderTest@3f9342d4]" started-at="2022-11-13T19:53:13 IST" name="orderHistoryTest" finished-at="2022-11-13T19:53:14 IST" depends-on-methods="dhruvanshtanwar.tests.SubmitOrderTest.submitOrder" duration-ms="784" status="PASS">
+        <test-method signature="orderHistoryTest()[pri:0, instance:dhruvanshtanwar.tests.SubmitOrderTest@598bd2ba]" started-at="2022-11-16T11:17:13 IST" name="orderHistoryTest" finished-at="2022-11-16T11:17:13 IST" depends-on-methods="dhruvanshtanwar.tests.SubmitOrderTest.submitOrder" duration-ms="573" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- orderHistoryTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:dhruvanshtanwar.tests.SubmitOrderTest@3f9342d4]" started-at="2022-11-13T19:53:14 IST" name="tearDown" finished-at="2022-11-13T19:53:14 IST" duration-ms="191" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:dhruvanshtanwar.tests.SubmitOrderTest@598bd2ba]" started-at="2022-11-16T11:17:13 IST" name="tearDown" finished-at="2022-11-16T11:17:14 IST" duration-ms="121" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

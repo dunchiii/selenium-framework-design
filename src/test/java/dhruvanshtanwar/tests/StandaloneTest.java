@@ -13,13 +13,11 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
 import dhruvanshtanwar.pageobjects.LandingPage;
-import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class StandaloneTest {
 
 	public static void main(String[] args) throws InterruptedException {
 
-		WebDriverManager.edgedriver().setup();
 		WebDriver driver = new EdgeDriver();
 
 		driver.manage().window().maximize();

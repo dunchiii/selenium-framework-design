@@ -38,7 +38,7 @@ public class SeleniumRefresh {
 	WebDriver driver;
 	public SeleniumRefresh(WebDriver driver) {
 		
-		super(driver);
+//		super(driver);
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
 	}
@@ -142,4 +142,8 @@ public class SeleniumRefresh {
 		 */
 
 	}
+	
+	
+//	@DataProvider
+	
 }
